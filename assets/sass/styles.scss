@@ -10,7 +10,7 @@ body {
 	margin: 0 auto;
 	background: 
 		linear-gradient(to right, rgba(0, 0, 0, 1) 30vw, rgba(0, 0, 0, 0) 60vw), 
-		url('assets/img/bubl-hero-2.jpg');
+		url("../../img/bubl-hero-2.jpg");
 	background-position:
 		top right,
 		200px center;
@@ -74,7 +74,7 @@ p {
  
 @media screen and (max-width: 768px) {
 	.content {
-		background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 20vh, rgba(0, 0, 0, 0) 80vh), url('assets/img/bubl-hero-2.jpg')  no-repeat;
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 20vh, rgba(0, 0, 0, 0) 80vh), url('../../img/bubl-hero-2.jpg')  no-repeat;
 		background-position: right bottom;
 		padding: 24px;
 	}
@@ -87,7 +87,7 @@ p {
 @media screen and (max-width: 600px) {
 
 	.content {
-		background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 55vh, rgba(0, 0, 0, 0) 80vh), url('assets/img/bubl-hero-2.jpg')  no-repeat;
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 55vh, rgba(0, 0, 0, 0) 80vh), url('../../img/bubl-hero-2.jpg')  no-repeat;
 		background-position: right bottom;
 		background-size: 150vw;
 		padding: 24px;
