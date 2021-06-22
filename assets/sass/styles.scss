@@ -71,25 +71,13 @@ p {
 	justify-content: center;
 	
 }
- 
-// @media screen and (max-width: 768px) {
-// 	.content {
-// 		background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 20vh, rgba(0, 0, 0, 0) 80vh), url('../../img/bubl-hero-2.jpg')  no-repeat;
-// 		background-position: right bottom;
-// 		padding: 24px;
-// 	}
-// 	.grid-item {
-// 		padding-top: 80px;
-// 		justify-content: inherit;
-// 	}
-// }
 
 @media screen and (max-width: 600px) {
 
 	.content {
-		background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 65vh, rgba(0, 0, 0, 0) 80vh), url('../../img/bubl-hero-2.jpg')  no-repeat;
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 65%, rgba(0, 0, 0, 0) 100%), url('../../img/bubl-hero-2.jpg')  no-repeat;
 		background-position: right bottom;
-		background-size: 150vw;
+		background-size: 150%;
 		padding: 24px;
 	}
 
