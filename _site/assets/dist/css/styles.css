@@ -122,18 +122,6 @@ p {
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
-  .content {
-    background: linear-gradient(to bottom, black 20vh, rgba(0, 0, 0, 0) 80vh), url("../../img/bubl-hero-2.jpg") no-repeat;
-    background-position: right bottom;
-    padding: 24px;
-  }
-
-  .grid-item {
-    padding-top: 80px;
-    justify-content: inherit;
-  }
-}
 @media screen and (max-width: 600px) {
   .content {
     background: linear-gradient(to bottom, black 65vh, rgba(0, 0, 0, 0) 80vh), url("../../img/bubl-hero-2.jpg") no-repeat;
