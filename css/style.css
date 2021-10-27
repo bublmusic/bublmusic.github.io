@@ -84,40 +84,17 @@ body {
 
 .hero{
     width: 100%;
-    min-height: 100vh;
+    min-height: 800px;
+    height: 105vh;
     background:url(../images/hero-back.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
    
 }
-
 .for_artists .hero{
-    width: 100%;
-    height:100vh;
     background: url(../images/hero/hero-artist.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 }
-
-/* .about_item{
-    font-weight: 700;
-    color: #FFFFFF;
-}
-.artist_item{
-    font-weight: 400;
-    color: #000000;
-} */
-
-/* .for_artists .about_item{
-    font-weight: 700;
-    color: #FFFFFF;
-}
-.for_artists .artist_item{
-    font-weight: 400;
-    color: #000000;
-} */
 
 .app-image {
     max-width: 346px;
