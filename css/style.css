@@ -1,0 +1,799 @@
+/* main layout */
+body {
+    overflow-x: hidden;
+    background: #1D1D1D;
+    box-sizing: border-box;
+    font-family: Barlow, sans-serif;
+}
+.centar{
+    max-width: 1240px;
+    height: auto;
+    margin:  0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.bubl-btn{
+    width: 240px;
+    padding: 16px;
+    background: #ED712E;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* junk */
+
+.show_mob{
+    display: none;
+}
+
+/* header and nav */
+
+.bubl-logo {
+    width: 133px;
+    height: 40px;
+}
+
+.btn:hover {
+    color: #FFFFFF;;
+    background: #D35612;
+}
+
+.bnav{
+    border: none;
+    box-shadow: none;
+    transition: background 0.7s ease-out;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 96px;
+}
+
+.bnav .nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px; 
+    position: absolute;
+    right: 7.4%;
+    top: 29%;
+    z-index: 6000;
+}
+
+.bnav a{
+    font-size: 20px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.bnav a.active {
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ED712E;
+}
+
+/* hero */
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background:url(../images/hero-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   
+}
+
+.for_artists .hero{
+    width: 100%;
+    height:100vh;
+    background: url(../images/hero/hero-artist.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* .about_item{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.artist_item{
+    font-weight: 400;
+    color: #000000;
+} */
+
+/* .for_artists .about_item{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.for_artists .artist_item{
+    font-weight: 400;
+    color: #000000;
+} */
+
+.app-image {
+    max-width: 346px;
+}
+
+.group_28{
+    top: 20vh;
+    
+}
+.for_artists .group_28{
+    top: 10vh;
+    
+}
+
+.logo_about{
+    top: 15px;
+    position: relative;
+    z-index: 5000;
+}
+.group_28 h1{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 78px;
+    /* or 108% */
+    margin-bottom: 31px;
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.group_28 p{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 47px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    max-width: 50%;
+
+}
+.group_28 button{
+    width: 240px;
+    height: 56px;
+    background: #ED712E;
+    border-radius: 4px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.core{
+    padding-top: 80px;
+    background: #EBEBEB;
+    padding-bottom: 80px;
+    color: #000000;
+
+    
+}
+.core h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 60px;
+}
+
+.core h2{
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+}
+.core p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 24px;
+    margin-bottom: 48px;
+}
+
+.core img{
+    width:64px ;
+    height: 64px;
+    margin-bottom: 12px;
+    
+}
+
+.circle1{
+
+    margin-left: 28%;
+    margin-top: 50px;
+    
+}
+.circles{
+    margin-left: 35%;
+}
+.circle{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.02);
+    position: absolute;
+
+}
+.circle2{
+    margin-top: 190px;
+    margin-left: 18%;
+
+}
+
+.circle3{
+    margin-top: 287px;
+    margin-left: 29%;
+
+}
+
+.phone{
+  text-align: center;
+}
+
+.discovery, .streaming, .social{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.for_artists .discovery{
+    background: #1D1D1D;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.for_artists .discovery .centar{
+    background: linear-gradient(90deg, #1D1D1D 0.66%, rgba(0, 0, 0, 0) 25.83%), linear-gradient(270deg, #1D1D1D 40.73%, rgba(0, 0, 0, 0) 68.23%), url(../images/jukebox-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.discovery h1, .social h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    margin-top: 80px;
+    margin-bottom:24px;
+    color: #FFFFFF;
+}
+
+.discovery h2, .social h2{
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.discovery p, .social p{
+    height: 40px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.discovery p img, .social p img{
+    margin-right: 16px;  
+    width: 40px;
+    height: 40px; 
+    float: left;
+}
+.mob{
+    position:absolute;
+    margin-top: -200px;
+    margin-left: -35%;
+}
+.for_artists .streaming{
+    background: #282828;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.for_artists .streaming .centar{
+    background: linear-gradient(90deg, #282828 51.65%, rgba(40, 40, 40, 0.33) 55.73%, rgba(0, 0, 0, 0) 60.53%), linear-gradient(270deg, #282828 0.83%, rgba(40, 40, 40, 0) 4.66%, rgba(0, 0, 0, 0) 8.26%), url(../images/streaming-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.streaming h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    margin-top: 80px;
+    margin-bottom:24px;
+    color: #FFFFFF;
+}
+
+.streaming h2{
+    margin-top: 50;
+    max-width: 552.87px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.streaming h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.streaming p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.str_div {
+    margin-bottom: 32px;
+}
+
+.str_div img{
+    margin-right: 16px; 
+    width: 40px;
+    height: 40px;
+}
+
+.str_div p{
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: -8px;
+    margin-left: 55px; 
+    color: #FFFFFF;
+}
+
+.kickstarter{
+    text-align: center;
+    background: #EBEBEB;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+
+.kickstarter button{
+   margin-top: 55px;
+    width: 320px;
+    height: 56px;
+    background: #ED712E;
+    border-radius: 4px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.kickstarter h3{
+
+    /* bubl-32 */
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    /* or 131% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.kickstarter h1{
+    /* bubl-48 */
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height, or 121% */
+
+    text-align: center;
+
+    /* black */
+
+    color: #000000;
+}
+.kickstarter p{
+    margin-top: 38px;
+    
+
+    /* bubl-18 */
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    color: #000000;
+
+}
+
+ .jukebox{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background: radial-gradient(18.54% 84.47% at 24.38% 44.78%, rgba(237, 113, 46, 0.17) 12.06%, rgba(0, 0, 0, 0) 100%), radial-gradient(35.78% 35.78% at 26.98% 79.78%, rgba(123, 97, 255, 0.23) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(13.93% 41.8% at 29.11% 50%, rgba(255, 255, 255, 0.18) 0%, rgba(29, 29, 29, 0.18) 100%), #1A1A1A;
+    
+
+    /* background: linear-gradient(270deg, #1D1D1D 43.4%, rgba(0, 0, 0, 0) 80.21%), url(../images/jukebox-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;*/ 
+} 
+/* .jukebox{
+    min-width: 1240px;
+    transform-origin: 18.54% 84.47%;
+    background-image: url(../images/rect251.png);
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+.for_artists .jukebox{
+    padding-bottom: 90px;
+}
+
+.jukebox h1{
+    padding-top: 70px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    /* or 121% */
+
+
+    color: #FFFFFF;
+}
+
+.for_artists .jukebox h1{
+    padding-top: 0px;
+}
+#for_jukebox{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: -12px;
+    /* or 142% */
+
+
+    color: #ED712E;
+}
+
+.jukebox h2{
+    margin-top: 48px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    /* or 131% */
+
+
+    color: #FFFFFF;
+
+}
+
+.jukebox p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    color: #FFFFFF;
+}
+.jukebox h3{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.for_artists .jukebox p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.jukebox p img{
+    margin-right: 17px;  
+    width: 30px;
+    height: 30px; 
+    float: left;
+}
+
+
+.image2 {
+    position: absolute;
+    left:5%;
+    
+  }
+  .image1 {
+    float: right;
+    padding-top: 100px;
+    
+  }
+
+.vip .centar{
+    background: linear-gradient(270deg, #1D1D1D 4.98%, rgba(0, 0, 0, 0) 20.79%), linear-gradient(90deg, #1D1D1D 25.61%, rgba(0, 0, 0, 0) 54.48%), url(../images/vip-back.jpg), #1D1D1D;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+.vip h1{
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height, or 121% */
+
+
+    /* light-grey */
+
+    color: #EBEBEB;
+}
+
+#for_vip{
+    margin-top: 2px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: -12px;
+    color: #ED712E;
+
+}
+
+.vip h2{
+    margin-top: 48px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.vip p{
+    margin-bottom: 28px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.vip p img{
+    margin-right: 17px; 
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+#for_vip_end{
+    width: 419px;
+    margin-top: 36px;
+
+    /* bubl-14 */
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    color: #FFFFFF
+}
+.art_sm{
+    display: none;
+} 
+
+
+.artists{
+   padding-top: 55px;
+   padding-bottom: 73px;
+    background:linear-gradient(0deg, rgba(237, 113, 46, 0.06), rgba(237, 113, 46, 0.06)), linear-gradient(90deg, #000000 36.19%, rgba(0, 0, 0, 0) 52.36%),  url(../images/artist-back.jpg), #1D1D1D;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.artists button{
+    height: auto;
+    margin:  0 auto;
+    padding: 10px;
+    position: relative;
+    width: 240px;
+    height: 56px;
+    background: #ED712E;
+    border-radius: 4px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.artists h1{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height, or 121% */
+    color: #FFFFFF;
+}
+.artists h2{
+    margin-top: 21px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    /* or 131% */
+
+
+    color: #FFFFFF;
+
+}
+.artists p{
+    margin-top: 21px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.social-link {
+    padding-right: 16px;
+}
+
+.btn_center{
+    text-align: right;
+    padding-top: 7%;
+}
+.footer{
+    padding-top: 64px;
+    padding-bottom: 18px;
+    /* light-grey */
+
+    background: #EBEBEB;
+}
+
+
+.footer p{
+    height: 26px;
+    margin-top: 17px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.footer p a {
+    color: #000000;
+}
+
+.revenues{
+    background: #333333;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.revenues h1{
+    padding-top: 40px;
+   font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.revenues h2{
+    max-width: 476px;
+    padding-top: 50px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.content-left { 
+	background: 
+		/* bright orange */
+		radial-gradient(18.54% 60.47% at 75vw, rgba(133, 103, 87, 0.17) 12.06%, rgba(0, 0, 0, 0) 100%), 
+		/* purple */
+		radial-gradient(35.78% 35.78% at 75vw, rgba(123, 97, 255, 0.23) 0%, rgba(0, 0, 0, 0) 100%), 
+		/* orange */
+		radial-gradient(13.93% 41.8% at 75vw, rgba(126, 78, 78, 0.18) 0%, rgba(29, 29, 29, 0.18) 100%),
+		/* main background colour */
+		#1d1d1d;
+}
+.content-right { 
+	background: 
+		/* bright orange */
+		radial-gradient(18.54% 60.47% at 25vw, rgba(133, 103, 87, 0.17) 12.06%, rgba(0, 0, 0, 0) 100%), 
+		/* purple */
+		radial-gradient(35.78% 35.78% at 25vw, rgba(123, 97, 255, 0.23) 0%, rgba(0, 0, 0, 0) 100%), 
+		/* orange */
+		radial-gradient(13.93% 41.8% at 25vw, rgba(126, 78, 78, 0.18) 0%, rgba(29, 29, 29, 0.18) 100%),
+		/* main background colour */
+		#282828;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+

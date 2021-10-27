@@ -1,0 +1,461 @@
+@media screen and (max-width: 768px) { 
+
+    .core {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .core h1 {
+        font-size: 32px;
+    }
+
+    .centar{
+        max-width: 768px;
+        
+    }
+    .hide_mob{
+        display: none;
+    }
+    .show_mob{
+        display: unset;
+    }
+    /* .text_component{
+        height: auto;
+        margin:  0 auto;
+        padding: 10px;
+        position: relative;
+        max-width: 340px;
+    } */
+    .hero{
+        background:url(../images/hero-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+    }
+    .for_artists .hero{
+        background:url(../images/hero-artist-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        
+    }
+
+    .bnav {
+        height: 80px
+    }
+
+    .bubl-logo {
+        width: 106px;
+        height: 32px;
+    }
+
+    .bnav .nav{
+
+        right: 1%;
+
+    }
+    .for_artists .about_item{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .for_artists .artist_item{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .about_item{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .artist_item{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .group_28{
+        height: auto;
+        margin:  0 auto;
+        padding: 10px;
+    }
+    .group_28 h1{
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    }
+    .group_28 p{
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+        max-width: 100%;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);   
+        
+    }
+    .group_28 button{
+        margin-top: 117px;
+        width: 100%;
+        margin-bottom: 80px;
+        height: 56px;
+    }
+
+    .for_artists .group_28{
+        height: auto;
+        margin:  0 auto;
+        padding: 10px;
+    }
+    .for_artists .group_28 h1{
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    }
+    .for_artists .group_28 p{
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);   
+        
+    }
+    .for_artists .group_28 button{
+        margin-top: 117px;
+        width: 100%;
+        margin-bottom: 80px;
+        height: 56px;
+    }
+    .bnav a {
+        font-size: 18px;
+        line-height: 20px;
+        color: #FFFFFF;
+    } 
+  
+  .circles{
+        display: none;
+    }
+    .phone img{
+        margin-top: 32px;
+        margin-bottom: 32px;
+        text-align:center;
+    }
+    .discovery, .social{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .img-disc{
+        display: none;
+    }
+
+    .for_artists .discovery{
+        background: linear-gradient(180deg, #282828 50%, rgba(0, 0, 0, 0) 100%), url(../images/mobile/jukebox-back.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+
+    }
+    .for_artists .discovery .centar{
+        background: unset;
+         background-repeat: unset;
+        background-position: unset;
+        background-size: unset;
+        padding-top: 40px;
+        padding-bottom: 430px;
+    
+    }
+    .for_artists .discovery .pl-150{
+        padding-left: unset;
+    
+    }
+    
+    .discovery h1, .social h1{
+
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 40px;
+    }
+    .discovery h2, .social h2, .jukebox h2{
+        font-size: 20px;
+        line-height: 28px;
+
+    }
+    .discovery p, .social p{
+        font-size: 18px;
+        line-height: 26px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 30px 0px;
+    }
+    .discovery p img,  .social p img{
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin-top: -4px;
+    }
+
+    .jukebox p{
+        font-size: 18px;
+        line-height: 26px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 30px 0px;
+
+    }
+
+    .jukebox p img{
+        float: left;
+         width: 40px;
+         height: 40px; 
+     }
+
+    .replace{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .streaming{
+        padding-top: 40px;
+        padding-bottom: 0px;
+        background: #1D1D1D;
+    } 
+    .for_artists .streaming{
+        background: linear-gradient(180deg, #1D1D1D 36.25%, rgba(0, 0, 0, 0) 67.92%), url(../images/iPhone/streaming-back.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .for_artists .streaming .centar{
+        background: unset;
+        background-repeat: unset;
+        background-position: unset;
+        background-size: unset;
+        padding-top: 40px;
+        padding-bottom: 430px;
+    
+    }
+    .for_artists .str_div p{
+        margin-left: 56px;
+    }
+    .streaming .phone{
+        text-align:center;
+    } 
+    .streaming .pl-150{
+        padding-left: 0px;
+    } 
+    .streaming h1{
+        font-size: 32px;
+        line-height: 42px;
+        /* or 158% */
+        margin-top: 0px;
+        
+    } 
+    
+    .streaming h2{
+        margin-top: 0px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .str_div img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .kickstarter{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    
+    .kickstarter h3{
+    
+        font-size: 18px;
+        line-height: 26px;
+    
+    }
+    
+    .kickstarter h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+  
+
+    .jukebox{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    } 
+    
+    .jukebox .pl-150{
+        padding-left: 0px;
+    }
+    
+    .jukebox h1{
+        padding-top: 0px;
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    #for_jukebox{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+    .jukebox h2{
+        margin-top: 16px;
+    
+    }
+    
+
+    .for_artists .jukebox p{
+        width: 320px;
+    }
+
+    .image2 {
+        max-width: 300px;
+        padding-left: 0px;
+        padding-top: 40px;
+        
+      }
+      .jukebox .image2{
+        max-width: 320px;
+        position: relative;
+      }
+      
+      .image1 {
+        margin-right: -70%;
+        display: none;
+        
+      }
+
+      .revenues {
+        padding-top: 50px;
+        padding-bottom: unset;
+        
+    }
+    .revenues .show_mob{
+        max-width: 320px;
+    }
+    .revenues .pl-150{
+        padding-left: unset;
+    }
+    
+    .revenues h1 {
+        padding-top: unset;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .revenues h2 {
+        max-width: 320px;
+        padding-top: 12px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .vip{
+        background: linear-gradient(179.32deg, #282828 6.48%, rgba(0, 0, 0, 0) 28.8%), url(../images/mobile/vip-back.jpg), #1D1D1D;
+        opacity: 0.9;
+        padding-top: 40px;
+        padding-bottom: 360px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+      .vip .centar{
+        background: unset;
+        opacity:unset;
+        padding-top: unset;
+        padding-bottom: unset;
+        background-repeat: unset;
+        background-position: unset;
+        background-size: unset;
+    
+    }
+    .vip h1{
+        font-size: 32px;
+        line-height: 42px
+    }
+    
+    #for_vip{
+        font-size: 18px;
+        line-height: 26px;
+    
+    }
+    #for_vip_end{
+        width: unset;
+    }
+    .vip h2{
+        margin-top: 16px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    .vip p{
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .vip p img{
+        width: 40px;
+        height: 40px;
+    }
+    .artists{
+        background: linear-gradient(183.87deg, #1D1D1D -1%, rgba(0, 0, 0, 0) 59.18%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(237, 113, 46, 0.06), rgba(237, 113, 46, 0.06)), url(../images/mobile/hero-artist-mobile.jpg), #1D1D1D;
+        background-repeat: no-repeat;
+         background-position: center center;
+         background-size: cover;
+     }
+     
+     .artists button{
+       width: 100%;
+       margin-top: 64px;
+       color: #FFFFFF;
+     }
+     
+     .artists h1{
+        font-size: 32px;
+        line-height: 42px;
+     }
+     .artists h2{
+        font-size: 24px;
+        line-height: 26px;
+     
+     }
+     .artists p{
+        font-size: 18px;
+        line-height: 26px;
+     }
+ 
+    .footer{
+        padding-top: 40px;
+        
+    }
+
+    .content-left {
+        background: 
+            /* bright orange */
+            radial-gradient(25% 90% at 50vh, rgba(133, 103, 87, 0.17) 12.06%, rgba(0, 0, 0, 0) 100%), 
+            /* purple */
+            radial-gradient(50% 60% at 50vw, rgba(123, 97, 255, 0.23) 0%, rgba(0, 0, 0, 0) 100%), 
+            /* orange */
+            radial-gradient(75% 41.8% at 50vh, rgba(126, 78, 78, 0.18) 0%, rgba(29, 29, 29, 0.18) 100%),
+            /* main background colour */
+            #1d1d1d;
+        }
+        .content-right {
+            background: 
+                /* bright orange */
+                radial-gradient(25% 90% at 50vh, rgba(133, 103, 87, 0.17) 12.06%, rgba(0, 0, 0, 0) 100%), 
+                /* purple */
+                radial-gradient(50% 60% at 50vw, rgba(123, 97, 255, 0.23) 0%, rgba(0, 0, 0, 0) 100%), 
+                /* orange */
+                radial-gradient(75% 41.8% at 50vh, rgba(126, 78, 78, 0.18) 0%, rgba(29, 29, 29, 0.18) 100%),
+                /* main background colour */
+                #282828;
+            }
+    
+}
