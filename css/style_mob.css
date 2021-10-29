@@ -4,10 +4,10 @@
         padding-top: 24px;
         padding-bottom: 24px;
     }
+
     .core h1 {
         font-size: 32px;
     }
-
     .centar{
         max-width: 768px;
         
@@ -18,7 +18,6 @@
     .show_mob{
         display: unset;
     }
-
     .hero{
         background:url(../images/hero-mobile.jpg);
         background-repeat: no-repeat;
@@ -181,12 +180,6 @@
     .for_artists .str_div p{
         margin-left: 56px;
     }
-    .streaming .phone{
-        text-align:center;
-    } 
-    .streaming .pl-150{
-        padding-left: 0px;
-    } 
     .str_div img{
         width: 40px;
         height: 40px;
@@ -197,49 +190,23 @@
     }
     
     .kickstarter h3{
-    
         font-size: 18px;
         line-height: 26px;
-    
     }
     
     .kickstarter h1{
         font-size: 32px;
         line-height: 42px;
     }
-  
-
     .module{
         padding-top: 24px;
         padding-bottom: 24px;
     } 
-    
-    .for_artists .jukebox p{
-        width: 320px;
-    }
-
-    .image2 {
-        max-width: 300px;
-        padding-left: 0px;
-        padding-top: 40px;
-        
-      }
-      .jukebox .image2{
-        max-width: 320px;
-        position: relative;
-      }
-      
-      .image1 {
-        margin-right: -70%;
-        display: none;
-        
-      }
-
-      .revenues {
+    .revenues {
         padding-top: 50px;
         padding-bottom: unset;
-        
-    }
+    
+    }   
     .revenues .show_mob{
         max-width: 320px;
     }

@@ -24,12 +24,6 @@ body {
     color: #FFFFFF;
 }
 
-/* junk */
-
-.show_mob{
-    display: none;
-}
-
 /* header and nav */
 
 .bubl-logo {
@@ -43,9 +37,6 @@ body {
 }
 
 .bnav{
-    border: none;
-    box-shadow: none;
-    transition: background 0.7s ease-out;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
@@ -55,9 +46,6 @@ body {
 }
 
 .bnav .nav{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     padding: 0px; 
     position: absolute;
     right: 7.4%;
@@ -106,7 +94,6 @@ body {
 }
 .for_artists .group_28{
     top: 10vh;
-    
 }
 
 .logo_about{
@@ -114,21 +101,16 @@ body {
     position: relative;
     z-index: 5000;
 }
+
 .group_28 h1{
-    font-family: 'Barlow', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 72px;
     line-height: 78px;
-    /* or 108% */
     margin-bottom: 31px;
     color: #FFFFFF;
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 .group_28 p{
-    font-family: 'Barlow', sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 34px;
@@ -143,17 +125,11 @@ body {
     height: 56px;
     background: #ED712E;
     border-radius: 4px;
-    font-family: Barlow;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 18px;
-    /* or 100% */
-
     text-align: center;
-
     color: #FFFFFF;
-
 }
 
 /* core */
@@ -166,6 +142,7 @@ body {
 
     
 }
+
 .core h1{
     font-weight: bold;
     font-size: 48px;
@@ -188,7 +165,7 @@ body {
 }
 
 .core img{
-    width:64px ;
+    width:64px;
     height: 64px;
     margin-bottom: 12px;
     
@@ -329,12 +306,6 @@ body {
     padding-bottom: 150px;
 
 }
-
-.mob{
-    position:absolute;
-    margin-top: -200px;
-    margin-left: -35%;
-}
 .for_artists .streaming{
     background: #282828;
     padding-top: 0px;
@@ -376,6 +347,9 @@ body {
     color: #FFFFFF;
 }
 
+
+/* kickstarter */
+
 .kickstarter{
     text-align: center;
     background: #EBEBEB;
@@ -384,19 +358,11 @@ body {
 }
 
 .kickstarter h3{
-
-    /* bubl-32 */
-    font-family: Barlow;
-    font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 42px;
-    /* or 131% */
-
     text-align: center;
-
     color: #000000;
-
 }
 
 .kickstarter h1{
@@ -412,7 +378,6 @@ body {
     font-size: 18px;
     line-height: 26px;
     color: #000000;
-
 }
 
 .for_artists .jukebox .features p{
@@ -421,17 +386,6 @@ body {
     line-height: 26px;
     color: #FFFFFF;
 }
-
-.image2 {
-    position: absolute;
-    left:5%;
-    
-  }
-  .image1 {
-    float: right;
-    padding-top: 100px;
-    
-  }
 
 .vip .centar{
     background: linear-gradient(270deg, #1D1D1D 4.98%, rgba(0, 0, 0, 0) 20.79%), linear-gradient(90deg, #1D1D1D 25.61%, rgba(0, 0, 0, 0) 54.48%), url(../images/vip-back.jpg), #1D1D1D;
@@ -443,14 +397,12 @@ body {
 
 }
 
-.art_sm{
-    display: none;
-} 
+/* artists */
 
 .artists{
-   padding-top: 55px;
-   padding-bottom: 73px;
-    background:linear-gradient(0deg, rgba(237, 113, 46, 0.06), rgba(237, 113, 46, 0.06)), linear-gradient(90deg, #000000 36.19%, rgba(0, 0, 0, 0) 52.36%),  url(../images/artist-back.jpg), #1D1D1D;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background:url(../images/artist-back.jpg), #1D1D1D;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -460,13 +412,10 @@ body {
     font-weight: bold;
     font-size: 48px;
     line-height: 58px;
-    /* identical to box height, or 121% */
     color: #FFFFFF;
 }
 .artists h2{
     margin-top: 21px;
-    font-family: Barlow;
-    font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 42px;
@@ -481,14 +430,8 @@ body {
     color: #FFFFFF;
 }
 
-.social-link {
-    padding-right: 16px;
-}
+/* footer */
 
-.btn_center{
-    text-align: right;
-    padding-top: 7%;
-}
 .footer{
     padding-top: 64px;
     padding-bottom: 18px;
@@ -496,23 +439,20 @@ body {
 }
 .footer p{
     height: 26px;
-    margin-top: 17px;
-    font-family: Barlow;
-    font-style: normal;
+    margin-top: 16px;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #000000;
-
 }
 
 .footer p a {
     color: #000000;
 }
 
-.revenues{
-    background: #1d1d1d;
+.social-link {
+    padding-right: 16px;
 }
+
 .content-left { 
 	background: 
 		/* bright orange */
