@@ -156,6 +156,8 @@ body {
 
 }
 
+/* core */
+
 .core{
     padding-top: 80px;
     background: #EBEBEB;
@@ -192,6 +194,89 @@ body {
     
 }
 
+/* section */
+
+.title-main {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.01em;
+    margin-bottom:24px;
+    color: #FFFFFF;
+}
+
+.title-under {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: -32px;
+    color: #ED712E;
+}
+
+.subtitle{
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.features {
+    margin-top: 40px;
+}
+
+.feature-row{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 1.2em;
+    min-height: 32px;
+}
+.feature-row img{
+    margin-right: 16px;
+    margin-top: -4px;  
+    width: 40px;
+    height: 40px; 
+    float: left;
+}
+
+.footnote{
+    margin-top: 36px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) { 
+    .title-main{
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 40px;
+    }
+    .title-under {
+        font-size: 18px;
+    }
+    .subtitle{
+        font-size: 20px;
+        line-height: 28px;
+
+    }
+    .feature-row{
+        font-size: 18px;
+        line-height: 26px;
+        margin: 24px 0px;
+    }
+}
+
 .circle1{
 
     margin-left: 28%;
@@ -225,7 +310,7 @@ body {
   text-align: center;
 }
 
-.discovery, .streaming, .social{
+.module{
     padding-top: 150px;
     padding-bottom: 150px;
 }
@@ -245,37 +330,6 @@ body {
 
 }
 
-.discovery h1, .social h1 {
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 76px;
-    letter-spacing: 0.01em;
-    margin-top: 80px;
-    margin-bottom:24px;
-    color: #FFFFFF;
-}
-
-.discovery h2, .social h2{
-    margin-top: 50px;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 42px;
-    color: #FFFFFF;
-}
-
-.discovery p, .social p{
-    height: 40px;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 38px;
-    color: #FFFFFF;
-}
-.discovery p img, .social p img{
-    margin-right: 16px;  
-    width: 40px;
-    height: 40px; 
-    float: left;
-}
 .mob{
     position:absolute;
     margin-top: -200px;
@@ -287,7 +341,7 @@ body {
     padding-bottom: 0px;
 }
 .for_artists .streaming .centar{
-    background: linear-gradient(90deg, #282828 51.65%, rgba(40, 40, 40, 0.33) 55.73%, rgba(0, 0, 0, 0) 60.53%), linear-gradient(270deg, #282828 0.83%, rgba(40, 40, 40, 0) 4.66%, rgba(0, 0, 0, 0) 8.26%), url(../images/streaming-back.jpg);
+    background: linear-gradient(90deg, #282828 51.65%, rgba(40, 40, 40, 0.33) 55.73%, rgba(0, 0, 0, 0) 60.53%), linear-gradient(270deg, #282828 0.83%, rgba(40, 40, 40, 0) 4.66%, rgba(0, 0, 0, 0) 8.26%), url(../images/streaming-back-main.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -296,36 +350,11 @@ body {
 
 }
 
-.streaming h1{
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 76px;
-    letter-spacing: 0.01em;
-    margin-top: 80px;
-    margin-bottom:24px;
-    color: #FFFFFF;
-}
-
-.streaming h2{
-    margin-top: 50;
-    max-width: 552.87px;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 42px;
-    color: #FFFFFF;
-}
-
 .streaming h3{
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 34px;
-    color: #FFFFFF;
-}
-.streaming p{
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
     color: #FFFFFF;
 }
 
@@ -354,26 +383,6 @@ body {
     padding-bottom: 96px;
 }
 
-
-.kickstarter button{
-   margin-top: 55px;
-    width: 320px;
-    height: 56px;
-    background: #ED712E;
-    border-radius: 4px;
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 18px;
-    /* or 100% */
-
-    text-align: center;
-
-    color: #FFFFFF;
-
-}
-
 .kickstarter h3{
 
     /* bubl-32 */
@@ -391,141 +400,27 @@ body {
 }
 
 .kickstarter h1{
-    /* bubl-48 */
-    font-family: Barlow;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 58px;
-    /* identical to box height, or 121% */
-
     text-align: center;
-
-    /* black */
-
     color: #000000;
 }
 .kickstarter p{
     margin-top: 38px;
-    
-
-    /* bubl-18 */
-
-    font-family: Barlow;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
-    /* or 144% */
-
     color: #000000;
 
 }
 
- .jukebox{
-    padding-top: 100px;
-    padding-bottom: 200px;
-    background: radial-gradient(18.54% 84.47% at 24.38% 44.78%, rgba(237, 113, 46, 0.17) 12.06%, rgba(0, 0, 0, 0) 100%), radial-gradient(35.78% 35.78% at 26.98% 79.78%, rgba(123, 97, 255, 0.23) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(13.93% 41.8% at 29.11% 50%, rgba(255, 255, 255, 0.18) 0%, rgba(29, 29, 29, 0.18) 100%), #1A1A1A;
-    
-
-    /* background: linear-gradient(270deg, #1D1D1D 43.4%, rgba(0, 0, 0, 0) 80.21%), url(../images/jukebox-back.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;*/ 
-} 
-/* .jukebox{
-    min-width: 1240px;
-    transform-origin: 18.54% 84.47%;
-    background-image: url(../images/rect251.png);
-    padding-top: 150px;
-    padding-bottom: 100px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-} */
-
-.for_artists .jukebox{
-    padding-bottom: 90px;
-}
-
-.jukebox h1{
-    padding-top: 70px;
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 58px;
-    /* or 121% */
-
-
-    color: #FFFFFF;
-}
-
-.for_artists .jukebox h1{
-    padding-top: 0px;
-}
-#for_jukebox{
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 34px;
-    margin-top: -12px;
-    /* or 142% */
-
-
-    color: #ED712E;
-}
-
-.jukebox h2{
-    margin-top: 48px;
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 42px;
-    /* or 131% */
-
-
-    color: #FFFFFF;
-
-}
-
-.jukebox p{
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
-    /* identical to box height, or 140% */
-
-
-    color: #FFFFFF;
-}
-.jukebox h3{
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 34px;
-    color: #FFFFFF;
-}
-
-.for_artists .jukebox p{
-    font-family: Barlow;
-    font-style: normal;
+.for_artists .jukebox .features p{
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
 }
-.jukebox p img{
-    margin-right: 17px;  
-    width: 30px;
-    height: 30px; 
-    float: left;
-}
-
 
 .image2 {
     position: absolute;
@@ -547,77 +442,10 @@ body {
     padding-bottom: 150px;
 
 }
-.vip h1{
-    
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 58px;
-    /* identical to box height, or 121% */
 
-
-    /* light-grey */
-
-    color: #EBEBEB;
-}
-
-#for_vip{
-    margin-top: 2px;
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 34px;
-    margin-top: -12px;
-    color: #ED712E;
-
-}
-
-.vip h2{
-    margin-top: 48px;
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 42px;
-    color: #FFFFFF;
-}
-
-.vip p{
-    margin-bottom: 28px;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
-    color: #FFFFFF;
-}
-.vip p img{
-    margin-right: 17px; 
-    width: 30px;
-    height: 30px;
-    float: left;
-}
-
-#for_vip_end{
-    width: 419px;
-    margin-top: 36px;
-
-    /* bubl-14 */
-
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-
-
-    color: #FFFFFF
-}
 .art_sm{
     display: none;
 } 
-
 
 .artists{
    padding-top: 55px;
@@ -628,31 +456,7 @@ body {
     background-size: cover;
 }
 
-.artists button{
-    height: auto;
-    margin:  0 auto;
-    padding: 10px;
-    position: relative;
-    width: 240px;
-    height: 56px;
-    background: #ED712E;
-    border-radius: 4px;
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 18px;
-    /* or 100% */
-
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-
 .artists h1{
-    font-family: Barlow;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 58px;
@@ -666,9 +470,6 @@ body {
     font-weight: normal;
     font-size: 32px;
     line-height: 42px;
-    /* or 131% */
-
-
     color: #FFFFFF;
 
 }
@@ -691,12 +492,8 @@ body {
 .footer{
     padding-top: 64px;
     padding-bottom: 18px;
-    /* light-grey */
-
     background: #EBEBEB;
 }
-
-
 .footer p{
     height: 26px;
     margin-top: 17px;
@@ -714,30 +511,7 @@ body {
 }
 
 .revenues{
-    background: #333333;
-    padding-top: 160px;
-    padding-bottom: 160px;
-}
-
-.revenues h1{
-    padding-top: 40px;
-   font-family: Barlow;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 58px;
-    color: #FFFFFF;
-}
-
-.revenues h2{
-    max-width: 476px;
-    padding-top: 50px;
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 42px;
-    color: #FFFFFF;
+    background: #1d1d1d;
 }
 .content-left { 
 	background: 
