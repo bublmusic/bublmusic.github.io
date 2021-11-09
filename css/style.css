@@ -82,6 +82,9 @@ body {
 }
 .for_artists .hero{
     background: url(../images/hero/hero-artist.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .app-image {
@@ -139,8 +142,6 @@ body {
     background: #EBEBEB;
     padding-bottom: 80px;
     color: #000000;
-
-    
 }
 
 .core h1{
@@ -255,10 +256,8 @@ body {
 }
 
 .circle1{
-
     margin-left: 28%;
     margin-top: 50px;
-    
 }
 .circles{
     margin-left: 35%;
@@ -269,18 +268,14 @@ body {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.02);
     position: absolute;
-
 }
 .circle2{
     margin-top: 190px;
     margin-left: 18%;
-
 }
-
 .circle3{
     margin-top: 287px;
     margin-left: 29%;
-
 }
 
 .phone{
